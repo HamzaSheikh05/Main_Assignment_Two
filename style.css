@@ -273,7 +273,10 @@ img {
 
 .container-of-card {
   padding: 2px 16px;
-  overflow-x: scroll;
+}
+
+.container-of-card p {
+  overflow-x: auto;
 }
 
 .title {
