@@ -267,15 +267,8 @@ img {
   height: 800px;
 }
 
-.container {
+.container-of-card {
   padding: 2px 16px;
-}
-
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .title {
@@ -301,4 +294,65 @@ img {
 .about-us h1 {
   font-weight: "RobotoBold";
   font-size: 24pt;
+}
+
+.contact-us-shell {
+  display: flex;
+  width: 100%;
+  margin-top: 77px;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-shell {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.form-shell form {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: white;
+  flex-direction: column;
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-align: left;
+}
+
+.form-shell form h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "RobotoBold", sans-serif;
+  font-size: 24pt;
+}
+
+.form-shell form label {
+  font-family: "RobotoItalicBold", sans-serif;
+  font-size: 18pt;
+}
+
+input[type="text"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type="submit"] {
+  background-color: #3882f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
 }
