@@ -368,3 +368,73 @@ input[type="submit"]:hover {
 }
 
 /** Blog css begins here **/
+.blog-shell {
+  width: 100%;
+  margin-top: 77px;
+}
+
+.outershells-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.outershells-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9faf8;
+}
+
+.outershells-three {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.outershells-four {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.outershells-five {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+}
+
+.blog-images {
+  width: 450px;
+  height: 300px;
+  border-radius: 4px;
+  border: 2px solid #45a049;
+}
+
+.blog-container {
+  width: 40%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.blog-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.blog-button:hover {
+  background-color: transparent;
+  border: 2px solid #3882f6;
+  color: #3882f6;
+}
