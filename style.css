@@ -222,7 +222,6 @@ nav ul li a {
   color: white;
 }
 
-/** About us Page css begins here **/
 .aboutintro {
   padding: 50px;
   margin-top: 84px;
@@ -301,8 +300,6 @@ nav ul li a {
   font-size: 24pt;
 }
 
-/** Contact us css begins here **/
-
 .contact-us-shell {
   display: flex;
   width: 100%;
@@ -368,7 +365,6 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-/** Blog css begins here **/
 .blog-shell {
   margin-top: 84px;
 }
