@@ -225,7 +225,7 @@ nav ul li a {
 /** About us Page css begins here **/
 .aboutintro {
   padding: 50px;
-  margin-top: 77px;
+  margin-top: 84px;
   text-align: center;
   background-color: #e5e7eb;
   color: rgb(105, 111, 117);
@@ -262,7 +262,7 @@ nav ul li a {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-img {
+.card-image {
   border-radius: 5px 5px 0 0;
   width: 100%;
   height: 800px;
