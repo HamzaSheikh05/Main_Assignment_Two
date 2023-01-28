@@ -13,19 +13,23 @@
   </head>
   <body>
     <!--Navigation Bar-->
-    <nav>
-      <h3>Hamza's Blog</h3>
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <picture>
+          <img class="nav-logo" src="./images/logo.png" alt="logo" />
+        </picture>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!--Website Introduction-->
     <section class="intro">
-      <div class="leftside">
+      <aside class="leftside">
         <h1>See the world and experiences through my eyes</h1>
         <p>
           Welcome to my Blog. Taking you with me to explore the world and trying
@@ -35,10 +39,8 @@
         <button class="signup" onclick="window.location='blog.html'">
           View Blog
         </button>
-      </div>
-      <div class="rightside">
-        <img src="./images/intro.jpg" alt="intro dp" />
-      </div>
+      </aside>
+      <img src="./images/intro.jpg" alt="intro dp" />
     </section>
     <!--End of Website Introduction Section-->
 
@@ -46,32 +48,35 @@
     <section class="random">
       <h2>Experiences of my Blog</h2>
       <div class="logo-holder">
-        <div class="icon-holder">
+        <figure class="icon-holder">
           <i class="fa-solid fa-burger fa-3x"></i>
-          <span>Dining</span>
-        </div>
-        <div class="icon-holder">
+          <figcaption>Dining</figcaption>
+        </figure>
+
+        <figure class="icon-holder">
           <i class="fa-solid fa-plane-up fa-3x"></i>
-          <span>Travelling</span>
-        </div>
-        <div class="icon-holder">
+          <figcaption>Travelling</figcaption>
+        </figure>
+
+        <figure class="icon-holder">
           <i class="fa-solid fa-dog fa-3x"></i>
-          <span>Huskies</span>
-        </div>
-        <div class="icon-holder">
+          <figcaption>Huskies</figcaption>
+        </figure>
+
+        <figure class="icon-holder">
           <i class="fa-solid fa-tree fa-3x"></i>
-          <span>Nature</span>
-        </div>
+          <figcaption>Nature</figcaption>
+        </figure>
       </div>
     </section>
     <!--End of Random Information Section-->
 
     <!--Quote Section-->
     <section class="quotes">
-      <p class="randomquote">
+      <blockquote class="randomquote">
         The more i live, the more i see, we are a forest full of wolves howling
         at the same moon thinking we are alone.
-      </p>
+      </blockquote>
       <p class="author">Atticus-</p>
     </section>
     <!--End of Quote Section-->

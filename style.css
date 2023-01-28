@@ -21,11 +21,15 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  overflow-y: scroll;
 }
 
-h3 {
-  font-size: 24px;
-  color: #f9faf8;
+.nav-logo {
+  width: 90px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 4px;
+  border: none;
 }
 
 nav {
@@ -62,21 +66,17 @@ nav ul li a {
 
 .intro {
   background-color: #1f2937;
-  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 70px;
-  overflow: hidden;
+  margin-top: 84px;
+  padding: 40px 10px;
 }
 
 .leftside {
   display: flex;
-  flex: 1;
-  width: 50%;
-  padding: 40px 60px;
-  justify-content: center;
+  width: 40%;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -94,17 +94,11 @@ nav ul li a {
   color: #e5e7eb;
 }
 
-.rightside {
-  display: flex;
-  flex: 1;
-  width: 50%;
-  padding: 40px 60px;
-  justify-content: center;
-}
-
-.rightside img {
-  width: 70%;
-  height: 270px;
+.intro img {
+  width: 40%;
+  height: 300px;
+  border-radius: 4px;
+  border: none;
 }
 
 .signup {
@@ -118,9 +112,10 @@ nav ul li a {
 
 .random {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 50px 0px 80px 0px;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .random h2 {
@@ -131,10 +126,12 @@ nav ul li a {
 
 .logo-holder {
   display: flex;
-  width: 60%;
+  width: 70%;
   flex-wrap: wrap;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: space-around;
 }
 
@@ -149,7 +146,7 @@ nav ul li a {
   border-radius: 4px;
 }
 
-.icon-holder span {
+.icon-holder figcaption {
   font-family: "RobotoItalicBold", sans-serif;
   font-size: 18px;
   margin: 3px;
